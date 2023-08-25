@@ -1,0 +1,153 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+
+.bg-image-full {
+    background: linear-gradient(to bottom, rgba(19, 14, 117, 0.8) 0%, rgba(49, 49, 49, 0.8) 100%), url(../Image/main-bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-size: cover;
+    position: relative;
+    opacity: 0.8;
+    height: 100vh;
+}
+
+.header-text{
+    padding-top: 18rem;
+    padding-left: 3rem;
+}
+
+.page-section {
+    padding: 4rem 0 2rem 0;
+}
+
+/* Course Section */
+
+#Course {
+    background-color: #3b58a2;
+}
+
+#Course .card {
+    background-color: #3b58a2;
+    border: none;
+    color: #fff;
+}
+
+#Course img{
+    width: 300px;
+    height: 300px;
+}
+
+#Course, #Mentors p{
+    text-align: justify;
+}
+/* End of Course Section */
+
+/* Internship Section */
+
+#Internship {
+    background-color: #F5F5F5;
+}
+
+#Internship .card{
+    border: none;
+    border-radius: 2px;
+}
+
+#Internship p {
+    text-align: justify;
+}
+
+.train p{
+    font-size: 1.4rem;
+}
+
+/* End of Internship Section */
+
+/* Mentors Section */
+#Mentors{
+    background-color: #3F4A3C;
+}
+
+#Mentors img {
+    width: 300px;
+    height: 300px;
+}
+
+#Mentors .card {
+    border: none;
+    background-color: #3F4A3C;
+}
+
+#Mentors ul {
+    margin-left: -1.8rem;
+}
+
+#Mentors ul li {
+    list-style: none;
+    float: left;
+    margin-right: 1rem;
+}
+
+#Mentors ul li a {
+    font-size: 1.5rem;
+}
+
+#About{
+    background-color: #889f6d;
+}
+
+#About .card{
+    text-align: justify;
+    background-color: #889f6d;
+    border: none;
+}
+
+#About .card img{
+    width: 250px;
+    height: 250px;
+}
+
+#About i{
+    font-size: 1.5rem;
+    margin-right: .5rem;
+}
+
+/* Contact Section */
+#Contact{
+    background-color: #fff;
+}
+
+.social a{
+    font-size: 1.5rem;
+    margin-right: 1rem;
+}
+
+/* End of Contact Section */
+
+.fa-linkedin-in{
+    color: #0072b1;
+}
+
+.fa-instagram{
+    color: #E1306C;
+}
+
+.fa-github{
+    color: #4078c0;
+}
+
+.fa-medium{
+    color: #66cdaa;
+}
+
+.fa-chrome{
+    color: #FCC31E;
+}
+
+.dev{
+    color: #50ff4a;
+}
