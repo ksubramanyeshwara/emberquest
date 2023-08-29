@@ -24,6 +24,10 @@
     padding: 4rem 0 2rem 0;
 }
 
+.section-name{
+    font-size: 3rem;
+}
+
 /* Course Section */
 
 #Course {
