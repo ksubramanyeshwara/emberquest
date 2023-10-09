@@ -155,3 +155,9 @@
 .dev{
     color: #50ff4a;
 }
+
+/*  */
+
+#termsandcondition, #riskpolicy, #privacypolicy{
+    text-align: justify;
+}
